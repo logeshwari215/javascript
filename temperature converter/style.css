@@ -1,0 +1,50 @@
+html ,body{
+    background-color: bisque;
+    font-family: outfit;
+}
+
+#convertor div{
+    display: flex; 
+    justify-content: center; 
+}
+
+#convertor{
+    background-color: rgb(215, 86, 133);
+    margin: 100px auto;
+    height: 300px;
+    width: 400px;
+    padding: 30px;
+    border-radius: 10px;
+
+}
+#heading{
+    color: white;
+}
+input{
+    padding: 10px 10px;
+    width:250px;
+    border-radius: 10px;
+    border: none;
+}
+input:focus{
+    border: none;
+    outline: none;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    font-family: outfit;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}
+#result{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
